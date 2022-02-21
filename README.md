@@ -6,6 +6,7 @@ Steps to reproduce:
 3. Scroll down using the page scrollbar until the Details header is no longer visible
 4. Click on any name entry to trigger the item click listener
    - the page will jump up to display the Detail header, then jump back down to the clicked entry without triggering the item click listener
-   - now that the component actually has the focus, click the item again and this time the item click listener will respond correctly without jumping
+   - now that the component actually has the focus, click the item again and this time the item click listener will respond correctly without jumping   
+   - holding down the mouse button will cause the view to scroll up, then wait there until you release the button. The page will then scroll down again
 
 ![](details2.gif)
